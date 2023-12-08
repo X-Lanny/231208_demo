@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f1f1f1;
+}
+
+.klass{
+    color: red;
+}
+
+#testID{
+    color: blue;
+}
+li span{
+    color: green;
+}
+
+li>span{
+    color: orange;
+}
+
+#testID+li{
+    background: #ccc;
+}
+#testID~li{
+    background: #ccc;
+}
+#testID,.klass{
+    background: #784e4e;
+}
+li[data]{
+    background: #ccc;
+}
+li[data]{
+    background: #bc2525;
+}
+li:not(#testID){
+    font-size: 30px;
+}
+
+li a:link{
+    color: pink;
+}
+li a:visited{
+    color: purple;
+}
+li a:hover{
+    color: red;;
+}
+li a:active{
+    color: yellow;
+}
+
+#testID::before{
+    content: 'A'
+}
+#testID::after{
+    content: 'D'
+}
+#testID::first-letter{
+    color: #780808;
+}
+#testID::first-line{
+    background: #f1f1f1;
+}
+li:first-child::after{
+    content: 'first-child'
+}
+li:last-child::after{
+    content: 'last-child'
+}
+li:nth-child(4){
+    font-size: 12px;
+}

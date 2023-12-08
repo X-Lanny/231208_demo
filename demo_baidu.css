@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;          /*3.整体布局*/
+    flex-direction: column;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+    /* header 
+    右边居中 */
+    /* 字体 字号 */
+    /*  link下划线 去掉 */
+    /* 更多产品 加上颜色 color background color  */
+.page_header{
+    color:blue
+    padding-top: 20px;
+    padding-right: 10px;
+    /* ???padding 简写属性在一个声明中设置所有内边距属性。 */
+    text-align: right;
+    letter-spacing: .5px;
+}
+.page_header a {
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 20px;
+    color: #333;
+}
+.page_header a:hover{
+    color:purple
+}
+/* .page-header nav a:last-child{ */
+    /* a:last-child 伪类元素 */
+    /* display: inline-block;
+    width: 60px;
+    height: 23px;
+    background: #38f;
+    color:#fff;
+    text-align: center;
+    line-height: 23px;
+} */
+.page_header a:last-child{
+    width: 60px;
+    height: 23px;
+    background: #38f;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 23px;
+}
+/* .page_header nav a more_p{
+    color: white;
+    background-color: red;
+} */
+.page_mainer{
+    text-align: center;
+    /* 居中 */
+    /* 图片居中 size */
+    /* 输入框居中 百度一下button after */
+    /* 百度一下button color backcolor */
+}
+.page_mainer .logo img{
+    width: 400px;
+    height: 200px;
+    margin-bottom: 22px;
+}
+
+.page_mainer .form-container .form-search{
+    display: inline-block;
+    width: 539px;
+    height: 34px;
+    border: 1px solid #b6b6b6;
+    border-right: 0;
+    outline: none;
+    line-height: 34px;
+    padding-left: 10px;
+    /* button 大小调整？ */
+}
+.page_mainer .form-container .submit-btn{
+    width: 100px;
+    height: 36px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border: 1px solid #3385ff;
+    outline: none;
+    cursor: pointer;
+    /* ??? cursor: pointer */
+    /* button 大小调整？是不是不知道用啥的元素 都用width height */
+}
+.form-container .submit-btn:hover{
+    opacity: 0.8;
+  }
+.page_footer{
+    text-align: center;
+    margin-top: 40px;
+    height: 200px;
+    color: gray;
+    /* 居中 */
+    /* 图片 size  */
+    /* 间隔 */
+}
+.page_footer .footer_info{
+    margin-top: 15px;
+    color: #999;
+}
+.page_footer a{
+    color: gray;
+    margin-right: 15px;
+}
+.page_footer .qrcode{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,10 @@
+
+
+  /*所有以3为倍数项目*/
+.gird-item:nth-child(3n){
+    border-right: 1px solid #9e3232;
+  }
+  /*第5个项目*/
+.gird-item:nth-child(5){
+    background: #666;
+  }
